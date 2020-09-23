@@ -23,10 +23,16 @@
   </head>
 
   <body>
+    
     <h1>Video embed</h1>
 
-    <video>
+    <video controls width="320" height="240" muted>
+      <source src="media/video.mp4" type="video/mp4">
+      <source src="media/video.webm" type="video/webm">
+      <track src="media/subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+      <p>If you are not able to see the audio, click <a href="media/audio.mp3">this link</a> to download the audio from here.</p>
     </video>
+  
   </body>
 
 </html>
